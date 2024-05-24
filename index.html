@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Creating an amazing PortFolio website using html and css"
+    />
+    <meta name="keywords" content="Html,css,javascript,react..." />
+    <meta name="author" content="Govind thakur" />
+    <title>PortFolio.com</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- // Adding remix icon to add icon in our page -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- This is our header section containing navbar, short intro of mySelf -->
+    <header>
+      <nav>
+        <div class="logo">Logo</div>
+        <div class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">MyProjects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </nav>
+
+      <div class="intro" id="home">
+        <h2>Hello !</h2>
+        <h1>I Am Web Developer..</h1>
+        <p>
+          I'm a Web Developer with good experience of 7 to 8 months. My
+          expertise is to create and
+          <span class="showcase"
+            >website designs, graphic design, business cards</span
+          >
+          and many more...
+        </p>
+        <div class="icon">
+          <i class="ri-facebook-circle-fill"></i>
+          <i class="ri-instagram-fill"></i>
+          <i class="ri-linkedin-box-fill"></i>
+          <i class="ri-github-fill"></i>
+          <i class="ri-twitter-fill"></i>
+        </div>
+      </div>
+    </header>
+    <!-- End of Header section  -->
+
+    <!-- // This is our about section contain an img, and short bio highlighting my skills and experiences -->
+
+    <section id="about">
+      <!-- img container -->
+      <div class="img-container">
+        <img src="./img4.jpg" alt="myImg" />
+      </div>
+      <!-- about me section  -->
+      <div class="about-me">
+        <h3>About Me</h3>
+        <div class="border"></div>
+        <p id="short-bio">
+          Hey, <span>I'm Govind thakur</span> and i'm a Full stack Web Developer
+          having 7 to 8 months Experience.
+        </p>
+        <p id="brief-desc">
+          Hello Everyone, I'm a full stack web-developer . I have good knowledge
+          about web fundamentals . The Technologies that i know , are-:
+          <span>HTML5,CSS3, javascript, React.</span> Currently i'm Exploring
+          some amazing Backend Technologies.. Like-:<span
+            >Node Js Express js, and a Database is MongoDB.</span
+          >
+        </p>
+      </div>
+    </section>
+    <!-- End of About section  -->
+
+    <!-- Skills section starts from here it contains some progress bar and short description -->
+
+    <div class="hr"></div>
+    <section class="skills">
+      <div class="head">
+        <h3>My Skills</h3>
+        <p>I Like To Craft Beautiful And Scalable Web Products</p>
+      </div>
+
+      <div id="icon-And-progress">
+        <!-- // Start of icon and text section  -->
+        <div class="icon-And-text">
+          <div class="wrapper-section">
+            <div class="web-icon">
+              <i class="ri-brush-fill"></i>
+            </div>
+            <!-- // End of icon section  -->
+            <div class="text">
+              <h4>Design + Development</h4>
+              <p>
+                Clean, modern designs-optimized for performance, search engines,
+                and converting users to customers
+              </p>
+            </div>
+          </div>
+          <!-- // End of text section  -->
+          <div class="wrapper-section">
+            <div class="web-icon">
+              <i class="ri-code-s-slash-fill"></i>
+            </div>
+            <!-- // End of icon section  -->
+            <div class="text">
+              <h4>Technology</h4>
+              <p>
+                Combined all the latest Technologies to a progressive web-app
+              </p>
+            </div>
+          </div>
+          <!-- // End of text section  -->
+
+          <div class="wrapper-section">
+            <div class="web-icon">
+              <i class="ri-smartphone-fill"></i>
+            </div>
+            <!-- // End of icon section  -->
+            <div class="text">
+              <h4>Always Responsive</h4>
+              <p>
+                A Responsive design makes your website accessible to all users,
+                regardless of their device.
+              </p>
+            </div>
+          </div>
+          <!-- // End of text section  -->
+        </div>
+        <!-- // End of icon and text section  -->
+
+        <!-- // Start of progress bar section  -->
+        <div class="progress-bar">
+          <h1>Progress</h1>
+          <div class="upper-box">
+            <div class="middle-box">
+              <p class="tech">HTML5</p>
+              <p class="prof">70%</p>
+            </div>
+          </div>
+          <!-- // End of boxes  -->
+
+          <div class="upper-box">
+            <div class="middle-box" style="width: 55%; background: dodgerblue">
+              <p class="tech">CSS3</p>
+              <p class="prof">54%</p>
+            </div>
+          </div>
+          <!-- // End of boxes  -->
+          <div class="upper-box">
+            <div class="middle-box" style="width: 81%; background: royalblue">
+              <p class="tech">javaScript</p>
+              <p class="prof">81%</p>
+            </div>
+          </div>
+          <!-- // End of boxes  -->
+          <div class="upper-box">
+            <div class="middle-box" style="width: 90%; background: green">
+              <p class="tech">SEO</p>
+              <p class="prof">90%</p>
+            </div>
+          </div>
+          <!-- // End of boxes  -->
+          <div class="upper-box">
+            <div
+              class="middle-box"
+              style="width: 85%; background: rgb(43, 255, 20)"
+            >
+              <p class="tech">React js</p>
+              <p class="prof">85%</p>
+            </div>
+          </div>
+          <!-- // End of boxes  -->
+          <div class="upper-box">
+            <div class="middle-box" style="width: 100%; background: skyblue">
+              <p class="tech">Backend Technologies(Currently-Learning)</p>
+              <p class="prof">In Progress</p>
+            </div>
+          </div>
+          <!-- // End of boxes  -->
+        </div>
+      </div>
+    </section>
+    <!-- // End of skills section  -->
+
+    <div class="hr"></div>
+    <!-- Code of our project section starts from here  -->
+    <section id="project-section">
+        <h3>Some of my Recent Project</h3>
+        <div class="project-data">
+            <div class="showCase">
+                <!-- // Project -1 -->
+                <img src="./img4.jpg" alt="">
+                <h4> Quiz web-app </h4>
+                <p style="color: black;">The amazing Quiz web-app , containing the functionality of customizing the quiz according to user need. You can play here study related quiz as per you interest</p>
+                <a href="https://google.com" target="_blank">Check it out</a>
+            </div>
+    
+            <div class="showCase">
+                <!-- // Project -2 -->
+                <img src="./img4.jpg" alt="">
+                <h4> E-commerce web-app </h4>
+                <p style="color: black;">This is my e-commerce web-app , including whole features and functionality of any e-commerce app. Here we can  assure you to shop anything safely </p>
+                <a href="https://google.com" target="_blank">Check it out</a>
+            </div>
+    
+            <div class="showCase">
+                <!-- // Project -3 -->
+                <img src="./img4.jpg" alt="">
+                <h4> Random Number Generator Game </h4>
+                <p style="color: black;">Random Number Generator game is a game in which user just guess the number between 1 to 10 .If user guess the correct number then the user will win the game. </p>
+                <a href="https://google.com" target="_blank">Check it out</a>
+            </div>
+        </div>
+    </section>
+    <!-- // End of project section  -->
+
+    <!-- Below code is used for creating a horizontal line -->
+    <div class="hr"></div>
+  <!-- // My Resume Download section starts from here  -->
+  <div class="resume">
+    <div class="resume-frame">
+      <img src="./img4.jpg" alt="myImg" style="width: 120px; height: 120px; border-radius: 50%;">
+      <p style="font-size: 34px; color: white;">Govind Thakur</p>
+      <p>Hello , I'm a Full stack Developer</p>
+      <div class="contact-icon">
+        <a href="tel:+917992478931"><i class="ri-phone-fill"></i></a>
+        <a href=""> <i class="ri-whatsapp-fill"></i></a>
+        <a href="mailto:gk7472157@gmail.com"><i class="ri-mail-fill"></i></a>
+      </div>
+      <div class="btn-container">
+        <a href="./My_Resume.pdf" download="" id="download">DOWNLOAD RESUME</a>
+        <a href="" id="hire" onclick="alert('Thanks for hiring me')">HIRE ME</a>
+      </div>
+    </div>
+  </div>
+  <!-- // End of Resume section  -->
+
+  <!-- // Contact-us section starts -->
+   <!-- Below code is used for creating a horizontal line -->
+   <div class="hr"></div>
+  <div class="contact">
+    <div class="form-section">
+      <p class="para1">CONTACT US !</p>
+      <p class="para2">We can't solve your problem if don't tell us about it</p>
+      <form action="no-action" method="get">
+        <input type="text" name="name" placeholder="Your name*">
+        <input type="email" name="email" placeholder="Email*">
+        <textarea name="msg" placeholder="Message" cols="30" rows="10"></textarea>
+        <button>SEND</button>
+      </form>
+    </div>
+    <!-- // Starts of icon section with symbol and description  -->
+    <div class="icon-section">
+      <div class="oneSymbol">
+        <i class="ri-home-wifi-fill"></i>
+        <p>India , Bihar(Patna)</p>
+      </div>
+      <div class="oneSymbol">
+        <a href="mailto:gk74721572gmail.com"><i class="ri-mail-fill"></i></a>
+        <p>Email -: gh7472157@gmail.com</p>
+      </div>
+      <div class="oneSymbol">
+        <a href="tel:+917992478931"><i class="ri-phone-fill"></i></a>
+        <p>+91-7992478931</p>
+      </div>
+
+      <div class=" icons" style="color: black;">
+        <i class="ri-facebook-circle-fill"></i>
+        <i class="ri-instagram-fill"></i>
+        <i class="ri-linkedin-box-fill"></i>
+        <i class="ri-github-fill"></i>
+        <i class="ri-twitter-fill"></i>
+      </div>
+    </div>
+  </div>
+  <!-- // End of contact section  -->
+
+  <!-- // Designing our small footer section  -->
+  <footer>
+    <p>&copy; 2024 PorFie pvt.ltd : All the rights are reserved</p>
+  </footer>
+  </body>
+</html>

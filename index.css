@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+header{
+    background:linear-gradient(to left, rgba(41, 11, 173, 0.765),rgba(1, 16, 15, 0.668) 1000px) ,url('./img4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    opacity: 1;
+}
+.logo{
+    padding-left: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 36px;
+    color: white;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f41a0a;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links li:hover::after{
+    width: 81%;
+   
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px 18px;
+}
+.intro{
+    width: 63%;
+    height: 80%;
+    padding: 80px 63px;
+    
+}
+.intro h1{
+    font-size: 45px;
+}
+.intro h1,h2,p{
+    color: white;
+    padding-top: 12px;
+}
+.intro p{
+    font-size: 23px;
+}
+.showcase{
+    color: yellowgreen;
+    font-weight: bolder;
+}
+.icon i{
+    font-size: 36px;
+    padding-top: 27px;
+   display: inline-block;
+   padding-right: 12px;
+   color: whitesmoke;
+}
+.icon i:hover{
+    color: yellowgreen;
+    transition: 0.5s;
+}
+
+/* About section code  */
+#about{
+    width: 100%;
+    height: 80vh;
+    background: hsl(0, 15%, 91%);
+    display: flex;
+}
+.img-container{
+    width: 45%;
+    height: 100%;
+    /* background:green; */
+}
+
+.img-container img{
+width: 230px;
+height: 360px;
+border-top-right-radius: 27px;
+border-top:9px solid blue;
+border-top-width: calc(100% - 500px);
+border-bottom: 9px solid blue;
+border-bottom-left-radius: 27px;
+margin-left: 180px;
+margin-top: 54px;
+}
+
+.about-me{
+    width: 54%;
+    height: 100%;
+    /* background: red; */
+}
+.about-me h3{
+    margin-top: 54px;
+    margin-left: 54px;
+    display: inline-block;
+    font-weight: bold;
+}
+.border{
+    width: 9%;
+    height: 2px;
+    margin-left: 54px;
+    background: black;
+}
+#short-bio{
+    font-size: 27px;
+    color: dodgerblue;
+    margin-left: 54px;
+    margin-top: 12px;
+}
+
+#short-bio span{
+    color: orangered;
+    font-family: cursive;
+}
+#brief-desc{
+    font-size: 14px;
+    line-height: 3.6vh;
+    color: grey;
+    font-family: sans-serif;
+    margin-left: 54px;
+}
+#brief-desc span{
+    font-weight: bold;
+}
+
+/* Skill section starts from here  */
+
+.skills{
+    width: 100%;
+    height: 90vh;
+    background: hsl(0, 15%, 91%);
+}
+.head{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 27px;
+    font-family: sans-serif;
+}
+.head h3{
+    font-weight: bolder;
+    font-size: 27px;
+    color: dodgerblue;
+}
+.head p{
+    color: grey;
+}
+#icon-And-progress{
+    display: flex;
+    margin-top: 45px;
+}
+.icon-And-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 36px;
+    padding-left: 36px;
+    padding-right: 28px;
+    line-height: 20px;
+}
+.web-icon{
+    padding-top: 22px;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
+.text h4{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.text p{
+    color: grey;
+}
+.wrapper-section{
+    display: flex;
+    gap: 18px;
+}
+/* progress bar code  */
+.progress-bar{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.upper-box{
+    width: 90%;
+    height: 36px;
+    background: white;
+    position: relative;
+}
+.middle-box{
+    width: 70%;
+    height: 36px;
+    background: rgb(210, 78, 30);
+    display: flex;
+    justify-content: space-between;
+}
+.tech{
+color: white;
+font-weight: bold;
+position: absolute;
+top: -2px;
+left: 5px;
+}
+.prof{
+    color: grey;
+    position: absolute;
+    right: 3px;
+    top: -2px;
+}
+/* Project section code is here  */
+
+#project-section{
+    width: 100%;
+    height: 81vh;
+    background: hsl(0, 15%, 91%);
+}
+#project-section h3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 45px;
+    color: dodgerblue;
+    font-size: 27px;
+    font-weight: bolder;
+}
+.showCase{
+    width: 290px;
+    height: 360px;
+    background: white;
+    border-top-right-radius: 27px;
+    border-bottom-left-radius: 27px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 9px 2px gray;
+
+}
+
+.showCase img{
+    width: 210px;
+    height: 160px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-top: 27px;
+    padding-bottom: 18px;
+}
+.showCase p{
+    padding: 18px 35px;
+    text-align: justify;
+}
+.showCase a{
+    text-decoration: none;
+}
+.project-data{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 12px;
+}
+.resume{
+    width: 100%;
+    height: 81vh;
+    background: hsl(0, 15%, 91%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume-frame{
+    width: 81%;
+    height: 72vh;
+    background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)),url('./resume.jpg');
+    /* background-color: rgba(10, 16, 16, 0.358); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.resume-frame img{
+    margin-top: 27px;
+}
+/* This is code of horizontal line break */
+.hr{
+width: 90%;
+height: 2px;
+background: rgb(17, 14, 14);
+margin: auto;
+}
+.contact-icon a{
+    text-decoration: none;
+}
+.contact-icon a i{
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    margin:7px 7px 18px 0px;
+}
+.btn-container a{
+    width: 100%;
+    height: 18px;
+    padding: 9px 16px;
+    border: 2px solid white;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    margin: 9px;
+}
+#download:hover{
+background: rgb(5, 145, 5);
+color: white;
+font-weight: bold;
+transition: 0.5s;
+border: none;
+}
+#hire{
+background:rgb(5, 145, 5) ;
+}
+.contact{
+    width: 100%;
+    height: 81vh;
+    background: hsl(0, 15%, 91%);
+    display: flex;
+    gap: 12px;
+}
+.form-section{
+    width: 50%;
+    height: 81vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 54px;
+    padding-top: 36px;
+}
+.form-section p{
+    color: black;
+}
+.form-section .para1 {
+    font-size: 21px;
+}
+.form-section form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 18px;
+}
+.form-section form input,textarea:focus{
+    outline: none;
+    border: none;
+}
+.form-section form input{
+    width: 81%;
+    padding: 10px 23px;
+}
+.form-section form textarea{
+    width: 81%;
+    padding: 12px 23px;
+    font-family: sans-serif;
+}
+.form-section form button{
+    width: 120px;
+    background: rgb(5, 145, 5);
+    color: white;
+    padding: 12px 36px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.icon-section{
+    width:50% ;
+    height: 81vh;
+    padding-top: 36px;
+    padding-left: 45px;
+}
+.oneSymbol{
+    display: flex;
+    gap: 27px 25px ;
+    font-size: 23px;
+}
+.oneSymbol a{
+    text-decoration: none;
+    color: black;
+}
+
+.oneSymbol p{
+    color: black;
+}
+.oneSymbol i{
+    padding-top: 9px;
+    font-size: 32px;
+}
+.icons{
+    color: black;
+    font-size: 35px;
+    padding-top: 18px;
+
+}
+/* code of footer section  */
+footer{
+    width: 100%;
+    height: 45px;
+    background: black;
+}
