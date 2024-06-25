@@ -16,6 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <script src="./index.js"></script>
   </head>
   <body>
     <!-- This is our header section containing navbar, short intro of mySelf -->
@@ -254,7 +255,7 @@
     <div class="form-section">
       <p class="para1">CONTACT US !</p>
       <p class="para2">We can't solve your problem if don't tell us about it</p>
-      <form action="no-action" method="get">
+      <form onsubmit="SendData(event)">
         <input type="text" name="name" placeholder="Your name*">
         <input type="email" name="email" placeholder="Email*">
         <textarea name="msg" placeholder="Message" cols="30" rows="10"></textarea>
@@ -289,7 +290,35 @@
 
   <!-- // Designing our small footer section  -->
   <footer>
-    <p>&copy; 2024 PorFie pvt.ltd : All the rights are reserved</p>
+    <!-- Privacy Policy section  -->
+    <div class="privacy-policy">
+      <p class="privacy-policy-heading">Privacy Policy</p>
+      <p class="privacy-policy-para">Thank you for visiting Er Govind Thakur's portfolio website ([ <a href="https://codsoft-task1-o2rvlegoc-goivnd-kumar-thakurs-projects.vercel.app/#about">Visit us</a> ]). Your privacy is important to us, and we are committed to protecting the personal information you choose to share with us. This Privacy Policy outlines how we collect, use, and safeguard your information when you visit our website.</p>
+
+      <p class="storage">Local Storage</p>
+      <p class="storage-method">LocalStorage is a data storage type of web storage. This allows the JavaScript sites and apps to store and access the data without any expiration date</p>
+
+      <h4 style="font-size: 21px; color: white; padding-top: 5px; display: block;">Contact-us</h4>
+      <p>If you have questions, or if you would like to make a complaint, please contact us by e‑mail at (ergovindthakur@gmail.com)</p>
+
+    </div>
+
+    <!-- Terms and condition section  -->
+     <div class="terms-condition">
+      <p class="terms">Terms And Conditions</p>
+      <p>Welcome to Er Govind Thakur's portfolio website ([<a href="https://codsoft-task1-o2rvlegoc-goivnd-kumar-thakurs-projects.vercel.app/#about">Visit us</a> ]). By accessing this website, you agree to comply with and be bound by the following terms and conditions of use. If you disagree with any part of these terms, please do not use our website. Thank you !</p>
+
+      <h4 style="font-size: 21px; color: white; padding-top: 5px; display: block;">Contact-us</h4>
+      <p>If you have questions, or if you would like to make a complaint, please contact us by e‑mail at (ergovindthakur@gmail.com)</p>
+     </div>
+
+     <div class="refund-policy">
+      <p class="refund">Refund-Policy</p>
+      <p class="refund-info">Hello Dear users, For your kind information we inform you this website should not sell anything now, But if we sell any products made by us in future we assure you.
+        We offer a full money-back guarantee for all purchases made on our website. If you are not satisfied with the product that you have purchased from us, you can get your money back no questions asked.You are eligible for a full reimbursement within 7 calendar days of your purchase. After the 7-day period you will no longer be eligible and will not be able to receive a refund. We encourage our customers to try the product (or service) in the first one week after their purchase to ensure it fits your needs. If you have any additional questions or would like to request a refund, feel free to contact us at ergovindthakur@gmail.com or call us +91 7992478931.  
+      </p>
+     </div>
+    <p style="padding-left: 36px;">&copy; 2024 PorFie pvt.ltd : All the rights are reserved</p>
   </footer>
   </body>
 </html>
